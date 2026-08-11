@@ -54,7 +54,15 @@ class class2{
         // li.stream().limit(3).forEach(System.out::println);
 
         // print first 3 and skip first 2 element 
-        li.stream().skip(2).limit(3).forEach(System.out::println);
+        // li.stream().skip(2).limit(3).forEach(System.out::println);
 
+        // sort all element in ascending order 
+
+        // li.stream().sorted().forEach(System.out::println); // ascending order
+        // li.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println); // descending order
+
+
+        // write programe to find out second largest element 
+        li.stream().sorted(Comparator.reverseOrder()).skip(1).limit(1).forEach(System.out::println);
     }
 }
