@@ -6,9 +6,6 @@ class class1{
         int sum= list.stream().reduce(0,(a,b)->a+b);
         System.out.println(sum);
         
-
-
-
         // find the larges element 
         int largest= list.stream().reduce(Integer.MIN_VALUE,(a,b)->Math.max(a,b));
         System.out.println(largest);
