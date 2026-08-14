@@ -64,5 +64,8 @@ class class2{
 
         // write programe to find out second largest element 
         li.stream().sorted(Comparator.reverseOrder()).skip(1).limit(1).forEach(System.out::println);
+
+        // write a programme to group the names of the student according to the department 
+        
     }
 }
