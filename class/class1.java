@@ -1,4 +1,5 @@
 import java.util.*;
+// default package lang 
 class class1{
     public static void main(String args[]){
         ArrayList<Integer> list= new ArrayList<>(Arrays.asList(2,1,3,4));

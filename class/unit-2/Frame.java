@@ -18,11 +18,15 @@ public class Frame extends JFrame{
 
         setLayout(null); // i am gonna use my own layout 
         // setLayout(new FlowLayout());
+        // default layout Border Layout 
     }
     public static void main(String args[]){
         new Frame();
     }
 }
+
+
+
 
 
 // Second way to design a frame 
