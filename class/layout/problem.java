@@ -11,6 +11,9 @@ public class problem extends JFrame implements ActionListener {
     JTextField f1= new JTextField(15);
     JButton b1= new JButton("Area");
 
+    /**
+     * 
+     */
     problem(){
         setVisible(true);
         setSize(400,500);
