@@ -1,0 +1,6 @@
+/**
+ * JCheckbox
+ */
+public class JCheckbox {
+
+}

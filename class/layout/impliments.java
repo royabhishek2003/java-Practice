@@ -1,0 +1,6 @@
+/**
+ * impliments
+ */
+public class impliments {
+
+}

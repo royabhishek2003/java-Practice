@@ -8,7 +8,7 @@ public class problem6 extends JFrame  implements ActionListener {
     problem6(){
         setSize(500,400);
         setVisible(true);
-        setLayout(new FlowLayout());
+        setLayout(new java.awt.FlowLayout());
         b1.addActionListener(this);
     }
 
@@ -35,8 +35,6 @@ public class problem6 extends JFrame  implements ActionListener {
              JOptionPane.showConfirmDialog(null,"Are you Sure you want to Exit","save",JOptionPane.YES_NO_CANCEL_OPTION);
 
         }   
-
-
 
     }
     public static void main(String args[]){

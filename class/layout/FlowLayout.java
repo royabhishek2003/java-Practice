@@ -1,0 +1,6 @@
+/**
+ * FlowLayout
+ */
+public record FlowLayout() {
+
+}
