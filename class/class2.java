@@ -44,7 +44,6 @@ class class2{
         // String ans= li.stream().filter(n-> n.charAt(0)=='A' || n.charAt(0)=='a').findFirst().orElse("**");
         // System.out.println(ans);
 
-
         // To check weather number is present in the list or not 
         List<Integer> li= Arrays.asList(10,20,-30,40,50);
         // boolean ans= li.stream().anyMatch(n-> n<0);
@@ -60,7 +59,6 @@ class class2{
 
         // li.stream().sorted().forEach(System.out::println); // ascending order
         // li.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println); // descending order
-
 
         // write programe to find out second largest element 
         li.stream().sorted(Comparator.reverseOrder()).skip(1).limit(1).forEach(System.out::println);
