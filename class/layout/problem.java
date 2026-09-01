@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.*;
 
 
-// accept the readius of the circle and find its area 
+// accept the radius of the circle and find its area 
 public class problem extends JFrame implements ActionListener {
    
     JLabel l1= new JLabel("Radius");

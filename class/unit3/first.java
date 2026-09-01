@@ -2,7 +2,6 @@
 
 import java.nio.file.*;
 public class first {
-    
     public static void main(String args[]) throws Exception{
         Path folder = Paths.get("E:\\fs");
         if(!Files.exists(folder)){
@@ -43,10 +42,6 @@ public class first {
 
         // delete a file of only exits 
         Files.deleteIfExists(f);
-        
-
-
-
 
 
     }
