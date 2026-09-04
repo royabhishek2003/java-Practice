@@ -47,12 +47,26 @@ public class readFile {
             // }
 
             // want to print only the different file not directory 
-             try(Stream<Path> s=  Files.list(p)){  // returns the Path type stream 
-                // s.filter(x -> Files.isRegularFile(x)).forEach(System.out::println);
-                // if we want to peint only the directory 
+            //  try(Stream<Path> s=  Files.list(p)){  // returns the Path type stream 
+            //     // s.filter(x -> Files.isRegularFile(x)).forEach(System.out::println);
+            //     // if we want to peint only the directory 
 
-                s.filter(x -> Files.isDirectory(x)).forEach(System.out::println);
-            }
+            //     s.filter(x -> Files.isDirectory(x)).forEach(System.out::println);
+            // }
+
+            // modift abc/file1.pdf -> file1.pdf only 
+
+            // try(Stream<Path> s=  Files.list(p)){  
+            //     s.filter(x -> Files.isRegularFile(x)).map(x -> x.getFileName()).forEach(System.out::println);
+            // }
+
+            // i want to search for a specific file only
+
+            // try(Stream<Path> s=  Files.list(p)){  
+            //     s.filter(x -> x.toString().endsWith(".txt")).forEach(System.out::println);
+            // }
+
+
 
         } catch (IOException e) {
             System.out.println("Error reading the file.");
