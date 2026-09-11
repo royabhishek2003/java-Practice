@@ -31,6 +31,14 @@ class class1{
         double average= list3.stream().mapToInt(n->n).average().orElse(0);
         System.out.println(average);
 
+
+        // int sum = list.stream().reduce(0, (a, b) -> a + b);
+ 
+        // Optional<Integer> first = list.stream().findFirst();
+        
+        // boolean anyBig = list.stream().anyMatch(x -> x > 100);
+        // boolean allPositive = list.stream().allMatch(x -> x > 0);
+
         
     }
 }

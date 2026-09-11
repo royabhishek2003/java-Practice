@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run jdbc1",
+            "request": "launch",
+            "mainClass": "jdbc1",
+            "classPaths": [
+                "${workspaceFolder}/lib/mysql-connector-j-26.7.0.jar",
+                "${workspaceFolder}/class/jdbc"
+            ]
+        }
+    ]
+}
