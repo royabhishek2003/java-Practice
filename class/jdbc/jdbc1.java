@@ -6,7 +6,7 @@ public class jdbc1 {
         try{
             String url="jdbc:mysql://localhost:3306/lpudatabase";
             String user= "root";
-            String password ="K432i@2003";
+            String password ="root";
 
             // load the driver 
             Class.forName("com.mysql.cj.jdbc.Driver");
