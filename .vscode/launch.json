@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "problem5",
+            "request": "launch",
+            "mainClass": "problem5",
+            "projectName": "Java_concept_3550e821"
+        },
+        {
+            "type": "java",
             "name": "Run jdbc1",
             "request": "launch",
             "mainClass": "jdbc1",

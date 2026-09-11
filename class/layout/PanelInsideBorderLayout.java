@@ -2,8 +2,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-
-// WAP to design two pwnel inside a frame 
+// WAP to design two panel inside a frame
 public class PanelInsideBorderLayout extends JFrame {
 
         JPanel p1= new JPanel();

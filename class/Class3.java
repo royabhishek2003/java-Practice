@@ -29,22 +29,22 @@ public class Class3 {
         // getClass().getName() + "@" + Integer.toHexString(hashCode()) 
         // System.out.println(list);
 
-    //     Map<String, List<Student>> result = list.stream()
-    // .collect(Collectors.groupingBy(n -> n.department));
+        Map<String, List<Student>> result = list.stream()
+       .collect(Collectors.groupingBy(n -> n.department));
 
-    // System.out.println(result);
+    System.out.println(result);
     // }
 
-    // write a programme to partition the elements by even and odd 
-List<Integer> li= Arrays.asList(1,2,3,4,5,6,7,8);
+//     // write a programme to partition the elements by even and odd 
+// List<Integer> li= Arrays.asList(1,2,3,4,5,6,7,8);
 
-// Map<Boolean, List<Integer>> result = li.stream()
-//         .collect(Collectors.partitioningBy(n -> n % 2 == 0));
+// // Map<Boolean, List<Integer>> result = li.stream()
+// //         .collect(Collectors.partitioningBy(n -> n % 2 == 0));
 
-Map<String, List<Integer>> result = li.stream()
-        .collect(Collectors.groupingBy(n -> (n%2==0)? "even":"Odd"));
+// Map<String, List<Integer>> result = li.stream()
+//         .collect(Collectors.groupingBy(n -> (n%2==0)? "even":"Odd"));
 
-System.out.println(result);
+// System.out.println(result);
 
     }
 }

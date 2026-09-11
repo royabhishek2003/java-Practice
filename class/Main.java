@@ -50,6 +50,7 @@ public class Main {
         //  .filter(e -> e.branch.equals("IT"))
         //  .forEach(System.out::println);
 
+        // if we want to print the names only 
         // employees.stream()
         //  .map(e -> e.name) 
         //  .forEach(System.out::println);
@@ -65,7 +66,7 @@ public class Main {
         .max((e1, e2) -> Double.compare(e1.rating, e2.rating))
         .orElse(null);
 
-        System.out.println(highestRated);
+        System.out.println(highestRated);   
 
         
 

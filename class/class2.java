@@ -36,7 +36,7 @@ class class2{
         // System.out.println(res2.get()); // error 
 
         // int res3= list.stream().findFirst().orElse(0);
-        // System.out.println(res3); // error 
+        // System.out.println(res3); 
 
 
         // List<String> li= Arrays.asList("munna","Amit","Khusi","ashish");
@@ -45,7 +45,7 @@ class class2{
         // System.out.println(ans);
 
         // To check weather number is present in the list or not 
-        List<Integer> li= Arrays.asList(10,20,-30,40,50);
+        // List<Integer> li= Arrays.asList(10,20,-30,40,50);
         // boolean ans= li.stream().anyMatch(n-> n<0);
         // System.out.println(ans);
 
@@ -61,7 +61,7 @@ class class2{
         // li.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println); // descending order
 
         // write programe to find out second largest element 
-        li.stream().sorted(Comparator.reverseOrder()).skip(1).limit(1).forEach(System.out::println);
+        // li.stream().sorted(Comparator.reverseOrder()).skip(1).limit(1).forEach(System.out::println);
 
         // write a programme to group the names of the student according to the department 
         
