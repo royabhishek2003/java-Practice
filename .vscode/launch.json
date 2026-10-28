@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "programme4",
+            "request": "launch",
+            "mainClass": "programme4",
+            "projectName": "Java_concept_3550e821"
+        },
+        {
+            "type": "java",
             "name": "problem5",
             "request": "launch",
             "mainClass": "problem5",

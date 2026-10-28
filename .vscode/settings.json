@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
-        "class/jdbc",
-        "class/layout",
+        "class/unit3",
         "class/unit-2",
-        "class/unit3"
+        "class/layout",
+        "class/jdbc",
+        "class/TimeandDate"
     ],
     "java.project.referencedLibraries": [
         "${workspaceFolder}/lib/mysql-connector-j-26.7.0.jar"

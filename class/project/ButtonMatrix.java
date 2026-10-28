@@ -6,7 +6,6 @@ public class ButtonMatrix {
 
     JButton[][] buttons = new JButton[3][3];
     int count = 0;
-
     // Constructor
     public ButtonMatrix() {
 
